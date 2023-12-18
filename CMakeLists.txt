@@ -11,4 +11,6 @@ add_executable(DataStructures
         .idea/modules.xml
         .idea/vcs.xml
         LinkedDouble/LinkedDouble.cpp
-        LinkedDouble/LinkedDouble.h)
+        LinkedDouble/LinkedDouble.h
+        LinkedCircle/Node.h
+        LinkedCircle/LinkCircled.cpp)

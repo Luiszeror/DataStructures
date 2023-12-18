@@ -66,7 +66,8 @@
 			},
 			"sourceIndexes" : 
 			[
-				4
+				4,
+				7
 			]
 		}
 	],
@@ -113,14 +114,16 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				4
+				4,
+				7
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				5
+				5,
+				6
 			]
 		}
 	],
@@ -156,6 +159,17 @@
 			"backtrace" : 1,
 			"path" : "LinkedDouble/LinkedDouble.h",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "LinkedCircle/Node.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "LinkedCircle/LinkCircled.cpp",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
