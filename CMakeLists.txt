@@ -13,4 +13,7 @@ add_executable(DataStructures
         LinkedDouble/LinkedDouble.cpp
         LinkedDouble/LinkedDouble.h
         LinkedCircle/Node.h
-        LinkedCircle/LinkCircled.cpp)
+        LinkedCircle/LinkCircled.cpp
+        Linked/Node.h
+        Linked/LinkedList.h
+        Linked/LinkedList.cpp)

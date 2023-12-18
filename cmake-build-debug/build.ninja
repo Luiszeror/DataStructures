@@ -63,6 +63,13 @@ build CMakeFiles/DataStructures.dir/LinkedCircle/LinkCircled.cpp.obj: CXX_COMPIL
   OBJECT_DIR = CMakeFiles\DataStructures.dir
   OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\LinkedCircle
 
+build CMakeFiles/DataStructures.dir/Linked/LinkedList.cpp.obj: CXX_COMPILER__DataStructures_unscanned_Debug C$:/Users/Esteban/Desktop/DataStructures/Linked/LinkedList.cpp || cmake_object_order_depends_target_DataStructures
+  DEP_FILE = CMakeFiles\DataStructures.dir\Linked\LinkedList.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Esteban/Desktop/DataStructures/LinkedDouble
+  OBJECT_DIR = CMakeFiles\DataStructures.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructures.dir\Linked
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DataStructures
@@ -71,7 +78,7 @@ build CMakeFiles/DataStructures.dir/LinkedCircle/LinkCircled.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable DataStructures.exe
 
-build DataStructures.exe: CXX_EXECUTABLE_LINKER__DataStructures_Debug CMakeFiles/DataStructures.dir/LinkedDouble/LinkedDouble.cpp.obj CMakeFiles/DataStructures.dir/LinkedCircle/LinkCircled.cpp.obj
+build DataStructures.exe: CXX_EXECUTABLE_LINKER__DataStructures_Debug CMakeFiles/DataStructures.dir/LinkedDouble/LinkedDouble.cpp.obj CMakeFiles/DataStructures.dir/LinkedCircle/LinkCircled.cpp.obj CMakeFiles/DataStructures.dir/Linked/LinkedList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DataStructures.dir

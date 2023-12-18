@@ -67,7 +67,8 @@
 			"sourceIndexes" : 
 			[
 				4,
-				7
+				7,
+				10
 			]
 		}
 	],
@@ -115,7 +116,8 @@
 			"sourceIndexes" : 
 			[
 				4,
-				7
+				7,
+				10
 			]
 		},
 		{
@@ -123,7 +125,9 @@
 			"sourceIndexes" : 
 			[
 				5,
-				6
+				6,
+				8,
+				9
 			]
 		}
 	],
@@ -169,6 +173,22 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "LinkedCircle/LinkCircled.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Linked/Node.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Linked/LinkedList.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Linked/LinkedList.cpp",
 			"sourceGroupIndex" : 1
 		}
 	],
